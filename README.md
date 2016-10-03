@@ -33,3 +33,6 @@ Write a function that will take a string as an input, identify whether it contai
  - This was written using TDD - I first wrote a feature test to cover the above example, and then wrote unit tests as I went along.
  - There are a couple of private helper methods which I think make the code more readable. 
  - I learned from my mistakes when writing the Ruby version of this challenge and did the TDD in a better way. With encapsulation in mind, I used nodes module system and JS's lexical scoping to hide the helper functions.
+
+## Improvements
+ - I would chance the _isBanned function to be an IIFE.
